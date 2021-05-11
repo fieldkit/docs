@@ -6,7 +6,7 @@
 | ----------------- | ----------- | 
 | RTC               | 0x51        | 
 | Core Temperature  | 0x48        |
-| OLED              | 0x78        |
+| OLED              | 0x3C        |
 
 ### Module
 
