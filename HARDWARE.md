@@ -1,4 +1,6 @@
-### Bus: I2C - Core
+## I2C Bus
+
+### Core
 
 | Device            | Address     | 
 | ----------------- | ----------- | 
@@ -6,7 +8,7 @@
 | Core Temperature  | 0x48        |
 | OLED              | 0x78        |
 
-### Bus: I2C - Module
+### Module
 
 | Device                  | Address     | 
 | ----------------------- | ----------- | 
@@ -17,13 +19,13 @@
 | Backplane TCA9545A      | 0x70        |
 | Module EERPOM           | 0x50        |
 
-### Bus: I2C - Radio
+### Radio
 
 | Device                  | Address     | 
 | ----------------------- | ----------- | 
 | SC16IS740 (Lora)        | 0x4D        | 
 
-### Bus: I2C - Module - Weather
+### Module - Weather
 
 | Device                  | Address     | 
 | ----------------------- | ----------- | 
@@ -37,14 +39,14 @@
 | MCP (Wind)              | 0x24        |
 | MCP (Rain)              | 0x21        |
 
-### Bus: I2C - Module - Distance
+### Module - Distance
 
 | Device                  | Address     | 
 | ----------------------- | ----------- | 
 | Module EERPOM           | 0x50        |
 | SC16IS740 (Ultrasonic)  | 0x4D        | 
 
-### Bus: I2C - Module - Water
+### Module - Water
 
 | Device                  | Address     | 
 | ----------------------- | ----------- | 
@@ -52,7 +54,7 @@
 | ADS1219                 |             |
 | MCP23008                | 0x22        |
 
-### Bus: I2C - Module - Atlas
+### Module - Atlas
 
 | Device                  | Address     | 
 | ----------------------- | ----------- | 
