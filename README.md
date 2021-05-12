@@ -110,7 +110,7 @@ Our ecosystem is made up of several pieces working together and so determining w
 
 In addition to gathering the information below, it's incredibly helpful to include a description of what you were doing and what you expected to happen. If you're able to reproduce the issue, including those steps will almost always speed the process along.
 
-### Hardware Issues
+### Hardware / Firmware
 
 For issues directly related to the behavior of the hardware or data gathering, etc... the logs that are written to the SD card are usually the first place to go. The preferred process for submitting those involves creating a ZIP archive, preferabbly using these instructions:
 
@@ -127,3 +127,7 @@ The app is always logging behind the scenes and those logs can be submitted as d
 
 We have yet to install a formal mechanism for gathering client-side logs or other diagnostics information. In general screenshots go a long way here. Try and include the browser URL in them.
 
+## Hardware Details
+
+
+I2C: RTC, INA219 Bat, INA219 Sol, Backplane MCP, Backplane LED, Backplane TCA, Core temp gauge. Module EEPROM.
