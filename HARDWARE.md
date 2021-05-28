@@ -56,7 +56,7 @@
 | Device                  | Address     | 
 | ----------------------- | ----------- | 
 | Module EERPOM           | 0x50, 0x58  |
-| ADS1219                 | 0x25        |
+| ADS1219                 | 0x45        |
 | MCP23008                | 0x22        |
 
 ### Module - Atlas
