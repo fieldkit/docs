@@ -12,8 +12,8 @@
 
 | Device                  | Address     | 
 | ----------------------- | ----------- | 
-| INA219 (Battery)        | 0x41        | 
-| INA219 (Solar)          | 0x40        | 
+| INA219 (Battery)        | 0x40        | 
+| INA219 (Solar)          | 0x41        | 
 | Backplane LP50 (LEDs)   | 0x14, 0xC   |
 | Backplane MCP23008      | 0x20        |
 | Backplane TCA9545A      | 0x70        |
