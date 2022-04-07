@@ -129,5 +129,24 @@ We have yet to install a formal mechanism for gathering client-side logs or othe
 
 ## Hardware Details
 
-
 I2C: RTC, INA219 Bat, INA219 Sol, Backplane MCP, Backplane LED, Backplane TCA, Core temp gauge. Module EEPROM.
+
+## Station Interaction
+
+### Debug Mode
+
+Right most button.
+
+### Emergency Rescue
+
+Left most button.
+
+
+### IRQs
+
+SysTick
+SVC
+PendSV
+WDT
+EIC-11 Wifi
+EIC-12 Battery

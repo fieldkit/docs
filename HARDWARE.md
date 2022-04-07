@@ -1,5 +1,17 @@
 ## I2C Bus
 
+### Peripherals
+
+| Device            | Pins          | Peripheral |
+| ----------------- | ------------- | ---------- |
+| SPI               | B12, B13, B15 | SERCOM4    |
+| SPI1              | B26, B27, B29 | SERCOM2    |
+| SPI2              | B16, B17, B19 | SERCOM5    |
+| Wire              | B20, B21      | SERCOM3    |
+| Wire1             | C22, C23      | SERCOM1    |
+| Wire2             | C16, C17      | SERCOM6    |
+| Serial1           | B24, B25      | SERCOM0    |
+
 ### Core
 
 | Device            | Address     | 
